@@ -1,0 +1,671 @@
+{
+  "processing": "Four connected bodies at alpha>=128; retain alpha fringe in 3px dilation; alpha<4 removed; crop padding; one constant resize per view; WebP quality87. No anatomical redraw.",
+  "sources": {
+    "assets/source/condorion-front.png": {
+      "sha256": "5decb8946f6c7c08ce4943fbc5543cec59d2204da4cd2037993a99a563a48087",
+      "size": [
+        1536,
+        1024
+      ],
+      "constant_scale": 0.9857142857142858,
+      "registration": [
+        {
+          "state": "idle",
+          "trim": [
+            119,
+            3,
+            829,
+            505
+          ],
+          "pivot_before_resize": [
+            516,
+            492
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "guard",
+          "trim": [
+            953,
+            6,
+            1525,
+            508
+          ],
+          "pivot_before_resize": [
+            442,
+            492
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "attack",
+          "trim": [
+            8,
+            512,
+            884,
+            1005
+          ],
+          "pivot_before_resize": [
+            818,
+            483
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "hit",
+          "trim": [
+            908,
+            524,
+            1523,
+            1013
+          ],
+          "pivot_before_resize": [
+            449,
+            479
+          ],
+          "touches_source_edge": false
+        }
+      ]
+    },
+    "assets/source/condorion-rear.png": {
+      "sha256": "7f9c7d22c0e787dde6c92132587ef300cdfa78503e90f00d3a8f633edc3de91f",
+      "size": [
+        1536,
+        1024
+      ],
+      "constant_scale": 1.0330578512396693,
+      "registration": [
+        {
+          "state": "idle",
+          "trim": [
+            63,
+            3,
+            711,
+            497
+          ],
+          "pivot_before_resize": [
+            488,
+            484
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "guard",
+          "trim": [
+            854,
+            3,
+            1439,
+            500
+          ],
+          "pivot_before_resize": [
+            499,
+            487
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "attack",
+          "trim": [
+            32,
+            486,
+            873,
+            1007
+          ],
+          "pivot_before_resize": [
+            571,
+            511
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "hit",
+          "trim": [
+            969,
+            542,
+            1504,
+            1008
+          ],
+          "pivot_before_resize": [
+            439,
+            456
+          ],
+          "touches_source_edge": false
+        }
+      ]
+    },
+    "assets/source/grumbongo-rear.png": {
+      "sha256": "b307ae926a006477ad01a7dd1700ec035f9285b92acb7df483d0d2547f4acf04",
+      "size": [
+        1536,
+        1024
+      ],
+      "constant_scale": 1.0121457489878543,
+      "registration": [
+        {
+          "state": "idle",
+          "trim": [
+            90,
+            2,
+            726,
+            506
+          ],
+          "pivot_before_resize": [
+            457,
+            494
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "guard",
+          "trim": [
+            837,
+            3,
+            1433,
+            513
+          ],
+          "pivot_before_resize": [
+            432,
+            500
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "attack",
+          "trim": [
+            26,
+            507,
+            829,
+            1008
+          ],
+          "pivot_before_resize": [
+            492,
+            491
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "hit",
+          "trim": [
+            882,
+            518,
+            1509,
+            1014
+          ],
+          "pivot_before_resize": [
+            513,
+            486
+          ],
+          "touches_source_edge": false
+        }
+      ]
+    },
+    "assets/source/hippocalypse-front.png": {
+      "sha256": "6fcf9a74e6048cee8967c481a21b6ff5372e98900d27cfb512f505f59cbdcf70",
+      "size": [
+        1536,
+        1024
+      ],
+      "constant_scale": 1.068111455108359,
+      "registration": [
+        {
+          "state": "idle",
+          "trim": [
+            87,
+            20,
+            743,
+            496
+          ],
+          "pivot_before_resize": [
+            524,
+            466
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "guard",
+          "trim": [
+            900,
+            21,
+            1502,
+            496
+          ],
+          "pivot_before_resize": [
+            497,
+            465
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "attack",
+          "trim": [
+            42,
+            509,
+            821,
+            1005
+          ],
+          "pivot_before_resize": [
+            687,
+            486
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "hit",
+          "trim": [
+            865,
+            522,
+            1488,
+            1005
+          ],
+          "pivot_before_resize": [
+            384,
+            473
+          ],
+          "touches_source_edge": false
+        }
+      ]
+    },
+    "assets/source/hippocalypse-rear.png": {
+      "sha256": "ce09a02c1b51ea0bb076510aadf36b2a882f5d72a04a3c440800cc8074118961",
+      "size": [
+        1536,
+        1024
+      ],
+      "constant_scale": 1.0638297872340425,
+      "registration": [
+        {
+          "state": "idle",
+          "trim": [
+            131,
+            16,
+            690,
+            496
+          ],
+          "pivot_before_resize": [
+            421,
+            470
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "guard",
+          "trim": [
+            863,
+            13,
+            1376,
+            490
+          ],
+          "pivot_before_resize": [
+            394,
+            467
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "attack",
+          "trim": [
+            24,
+            507,
+            830,
+            990
+          ],
+          "pivot_before_resize": [
+            472,
+            473
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "hit",
+          "trim": [
+            858,
+            506,
+            1512,
+            994
+          ],
+          "pivot_before_resize": [
+            332,
+            478
+          ],
+          "touches_source_edge": false
+        }
+      ]
+    },
+    "assets/source/komodor-front.png": {
+      "sha256": "bb13e8ccbcd93d3216513c1c4c9cd8a046ede236b888a4b92845a7af4077c999",
+      "size": [
+        1536,
+        1024
+      ],
+      "constant_scale": 0.984251968503937,
+      "registration": [
+        {
+          "state": "idle",
+          "trim": [
+            108,
+            7,
+            779,
+            525
+          ],
+          "pivot_before_resize": [
+            526,
+            508
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "guard",
+          "trim": [
+            859,
+            8,
+            1522,
+            530
+          ],
+          "pivot_before_resize": [
+            537,
+            512
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "attack",
+          "trim": [
+            13,
+            492,
+            844,
+            1016
+          ],
+          "pivot_before_resize": [
+            215,
+            514
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "hit",
+          "trim": [
+            829,
+            514,
+            1528,
+            1020
+          ],
+          "pivot_before_resize": [
+            490,
+            496
+          ],
+          "touches_source_edge": false
+        }
+      ]
+    },
+    "assets/source/kraken-front.png": {
+      "sha256": "af9ff5fd56cfaf8a4582551e531e310ca59033f246f3e45d0e771003a76e47e3",
+      "size": [
+        1536,
+        1024
+      ],
+      "constant_scale": 0.9899569583931134,
+      "registration": [
+        {
+          "state": "idle",
+          "trim": [
+            93,
+            5,
+            800,
+            504
+          ],
+          "pivot_before_resize": [
+            463,
+            489
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "guard",
+          "trim": [
+            851,
+            6,
+            1508,
+            502
+          ],
+          "pivot_before_resize": [
+            445,
+            486
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "attack",
+          "trim": [
+            14,
+            512,
+            866,
+            1005
+          ],
+          "pivot_before_resize": [
+            723,
+            483
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "hit",
+          "trim": [
+            906,
+            520,
+            1523,
+            1004
+          ],
+          "pivot_before_resize": [
+            354,
+            474
+          ],
+          "touches_source_edge": false
+        }
+      ]
+    },
+    "assets/source/kraken-rear.png": {
+      "sha256": "2d276dd1aa2fa0a1d6f54817240fcd26dc6caa2f55fe9de6f9b7c090da445246",
+      "size": [
+        1536,
+        1024
+      ],
+      "constant_scale": 1.002906976744186,
+      "registration": [
+        {
+          "state": "idle",
+          "trim": [
+            73,
+            14,
+            771,
+            496
+          ],
+          "pivot_before_resize": [
+            460,
+            472
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "guard",
+          "trim": [
+            809,
+            8,
+            1481,
+            494
+          ],
+          "pivot_before_resize": [
+            479,
+            476
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "attack",
+          "trim": [
+            44,
+            494,
+            894,
+            1000
+          ],
+          "pivot_before_resize": [
+            485,
+            496
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "hit",
+          "trim": [
+            876,
+            523,
+            1523,
+            999
+          ],
+          "pivot_before_resize": [
+            458,
+            466
+          ],
+          "touches_source_edge": false
+        }
+      ]
+    },
+    "assets/source/sssirPent-front.png": {
+      "sha256": "f7a26168a7b3467de5291854d2a749f746ec5bb9235b1c57772bacb80006328d",
+      "size": [
+        1536,
+        1024
+      ],
+      "constant_scale": 0.9940357852882704,
+      "registration": [
+        {
+          "state": "idle",
+          "trim": [
+            107,
+            2,
+            779,
+            515
+          ],
+          "pivot_before_resize": [
+            402,
+            503
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "guard",
+          "trim": [
+            843,
+            58,
+            1531,
+            514
+          ],
+          "pivot_before_resize": [
+            352,
+            446
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "attack",
+          "trim": [
+            41,
+            527,
+            828,
+            1012
+          ],
+          "pivot_before_resize": [
+            560,
+            475
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "hit",
+          "trim": [
+            895,
+            513,
+            1533,
+            1013
+          ],
+          "pivot_before_resize": [
+            383,
+            490
+          ],
+          "touches_source_edge": false
+        }
+      ]
+    },
+    "assets/source/sssirPent-rear.png": {
+      "sha256": "8793f93806b5f4fcd27c2a86955914c5b3f6283a59d569d8760f8d27bfbeee38",
+      "size": [
+        1536,
+        1024
+      ],
+      "constant_scale": 0.9787234042553191,
+      "registration": [
+        {
+          "state": "idle",
+          "trim": [
+            46,
+            11,
+            761,
+            519
+          ],
+          "pivot_before_resize": [
+            440,
+            498
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "guard",
+          "trim": [
+            788,
+            45,
+            1492,
+            520
+          ],
+          "pivot_before_resize": [
+            422,
+            465
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "attack",
+          "trim": [
+            26,
+            500,
+            836,
+            996
+          ],
+          "pivot_before_resize": [
+            443,
+            486
+          ],
+          "touches_source_edge": false
+        },
+        {
+          "state": "hit",
+          "trim": [
+            866,
+            516,
+            1523,
+            985
+          ],
+          "pivot_before_resize": [
+            429,
+            459
+          ],
+          "touches_source_edge": false
+        }
+      ]
+    },
+    "experiments/animation-trial/assets/arena.png": {
+      "sha256": "b20a535bb3043f612080e9dff9566f5759e8e9217b3bb71471eb929655fdbf08"
+    },
+    "assets/source/grounds.png": {
+      "sha256": "cfab35ca1d1f55a6674e5c8684eec302c459c94efd96527f09df8d34e4df4957"
+    }
+  }
+}

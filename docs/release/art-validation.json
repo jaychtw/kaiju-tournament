@@ -1,0 +1,57 @@
+{
+  "views": {
+    "komodor/front": {
+      "frames": 4,
+      "decoded_rgba_bytes": 5747816
+    },
+    "komodor/rear": {
+      "frames": 20,
+      "decoded_rgba_bytes": 25416920
+    },
+    "grumbongo/front": {
+      "frames": 8,
+      "decoded_rgba_bytes": 10330324
+    },
+    "grumbongo/rear": {
+      "frames": 4,
+      "decoded_rgba_bytes": 5482196
+    },
+    "kraken/front": {
+      "frames": 4,
+      "decoded_rgba_bytes": 5476012
+    },
+    "kraken/rear": {
+      "frames": 4,
+      "decoded_rgba_bytes": 5631500
+    },
+    "hippocalypse/front": {
+      "frames": 4,
+      "decoded_rgba_bytes": 5864836
+    },
+    "hippocalypse/rear": {
+      "frames": 4,
+      "decoded_rgba_bytes": 5530356
+    },
+    "condorion/front": {
+      "frames": 4,
+      "decoded_rgba_bytes": 5348760
+    },
+    "condorion/rear": {
+      "frames": 4,
+      "decoded_rgba_bytes": 5538228
+    },
+    "sssirPent/front": {
+      "frames": 4,
+      "decoded_rgba_bytes": 5370216
+    },
+    "sssirPent/rear": {
+      "frames": 4,
+      "decoded_rgba_bytes": 5392108
+    }
+  },
+  "runtime_art_bytes": 7207022,
+  "all_art_decoded_rgba_bytes": 103712184,
+  "largest_match_images_plus_canvas_bytes": 45878700,
+  "physical_mobile_verified": false,
+  "note": "RGBA arithmetic only; excludes browser/GPU/process overhead and thumbnail copies. Cache may retain views across a tournament."
+}
