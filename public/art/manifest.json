@@ -1,0 +1,321 @@
+{
+  "arena": "art/arena.webp",
+  "characters": {
+    "komodor": {
+      "rear": {
+        "k_guard_0": {
+          "file": "art/k_guard_0.webp",
+          "size": [
+            582,
+            516
+          ],
+          "pivot": [
+            461,
+            438
+          ]
+        },
+        "k_guard_1": {
+          "file": "art/k_guard_1.webp",
+          "size": [
+            582,
+            515
+          ],
+          "pivot": [
+            460,
+            437
+          ]
+        },
+        "k_guard_2": {
+          "file": "art/k_guard_2.webp",
+          "size": [
+            610,
+            512
+          ],
+          "pivot": [
+            485,
+            430
+          ]
+        },
+        "k_guard_3": {
+          "file": "art/k_guard_3.webp",
+          "size": [
+            610,
+            512
+          ],
+          "pivot": [
+            484,
+            430
+          ]
+        },
+        "k_idle_0": {
+          "file": "art/k_idle_0.webp",
+          "size": [
+            622,
+            523
+          ],
+          "pivot": [
+            496,
+            450
+          ]
+        },
+        "k_idle_1": {
+          "file": "art/k_idle_1.webp",
+          "size": [
+            623,
+            529
+          ],
+          "pivot": [
+            498,
+            456
+          ]
+        },
+        "k_idle_2": {
+          "file": "art/k_idle_2.webp",
+          "size": [
+            622,
+            512
+          ],
+          "pivot": [
+            501,
+            453
+          ]
+        },
+        "k_idle_3": {
+          "file": "art/k_idle_3.webp",
+          "size": [
+            621,
+            513
+          ],
+          "pivot": [
+            507,
+            454
+          ]
+        },
+        "k_counter_0": {
+          "file": "art/k_counter_0.webp",
+          "size": [
+            544,
+            501
+          ],
+          "pivot": [
+            430,
+            432
+          ]
+        },
+        "k_counter_1": {
+          "file": "art/k_counter_1.webp",
+          "size": [
+            558,
+            512
+          ],
+          "pivot": [
+            448,
+            456
+          ]
+        },
+        "k_counter_2": {
+          "file": "art/k_counter_2.webp",
+          "size": [
+            685,
+            517
+          ],
+          "pivot": [
+            556,
+            473
+          ]
+        },
+        "k_counter_3": {
+          "file": "art/k_counter_3.webp",
+          "size": [
+            735,
+            483
+          ],
+          "pivot": [
+            615,
+            462
+          ]
+        },
+        "k_strike_0": {
+          "file": "art/k_strike_0.webp",
+          "size": [
+            693,
+            491
+          ],
+          "pivot": [
+            579,
+            471
+          ]
+        },
+        "k_strike_1": {
+          "file": "art/k_strike_1.webp",
+          "size": [
+            759,
+            487
+          ],
+          "pivot": [
+            638,
+            470
+          ]
+        },
+        "k_strike_2": {
+          "file": "art/k_strike_2.webp",
+          "size": [
+            755,
+            498
+          ],
+          "pivot": [
+            635,
+            482
+          ]
+        },
+        "k_strike_3": {
+          "file": "art/k_strike_3.webp",
+          "size": [
+            734,
+            511
+          ],
+          "pivot": [
+            632,
+            492
+          ]
+        },
+        "k_recovery_0": {
+          "file": "art/k_recovery_0.webp",
+          "size": [
+            555,
+            508
+          ],
+          "pivot": [
+            443,
+            419
+          ]
+        },
+        "k_recovery_1": {
+          "file": "art/k_recovery_1.webp",
+          "size": [
+            507,
+            509
+          ],
+          "pivot": [
+            423,
+            427
+          ]
+        },
+        "k_recovery_2": {
+          "file": "art/k_recovery_2.webp",
+          "size": [
+            553,
+            515
+          ],
+          "pivot": [
+            434,
+            435
+          ]
+        },
+        "k_recovery_3": {
+          "file": "art/k_recovery_3.webp",
+          "size": [
+            545,
+            522
+          ],
+          "pivot": [
+            424,
+            440
+          ]
+        }
+      }
+    },
+    "grumbongo": {
+      "front": {
+        "g_attack_0": {
+          "file": "art/g_attack_0.webp",
+          "size": [
+            632,
+            505
+          ],
+          "pivot": [
+            544,
+            497
+          ]
+        },
+        "g_attack_1": {
+          "file": "art/g_attack_1.webp",
+          "size": [
+            604,
+            481
+          ],
+          "pivot": [
+            515,
+            473
+          ]
+        },
+        "g_attack_2": {
+          "file": "art/g_attack_2.webp",
+          "size": [
+            710,
+            494
+          ],
+          "pivot": [
+            624,
+            483
+          ]
+        },
+        "g_attack_3": {
+          "file": "art/g_attack_3.webp",
+          "size": [
+            657,
+            500
+          ],
+          "pivot": [
+            578,
+            489
+          ]
+        },
+        "g_reaction_0": {
+          "file": "art/g_reaction_0.webp",
+          "size": [
+            640,
+            500
+          ],
+          "pivot": [
+            559,
+            489
+          ]
+        },
+        "g_reaction_1": {
+          "file": "art/g_reaction_1.webp",
+          "size": [
+            667,
+            495
+          ],
+          "pivot": [
+            566,
+            484
+          ]
+        },
+        "g_reaction_2": {
+          "file": "art/g_reaction_2.webp",
+          "size": [
+            691,
+            481
+          ],
+          "pivot": [
+            592,
+            465
+          ]
+        },
+        "g_reaction_3": {
+          "file": "art/g_reaction_3.webp",
+          "size": [
+            621,
+            501
+          ],
+          "pivot": [
+            533,
+            487
+          ]
+        }
+      }
+    }
+  }
+}

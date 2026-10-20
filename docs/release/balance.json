@@ -1,0 +1,4621 @@
+{
+  "change": {
+    "character": "hippocalypse",
+    "attribute": "ATK",
+    "before": 85,
+    "after": 110
+  },
+  "assumptions": "Fixed discrete presses each round; opponent always basic attacks; optimal exhaustive search up to 32 rounds; no human/device-rate measurement.",
+  "summaries": [
+    {
+      "presses": 0,
+      "legacyWinnable": 12,
+      "winnable": 15,
+      "total": 30,
+      "minRounds": 2,
+      "maxRounds": 8,
+      "meanRounds": 4.6,
+      "attackWins": 10,
+      "counterWins": 12
+    },
+    {
+      "presses": 10,
+      "legacyWinnable": 19,
+      "winnable": 22,
+      "total": 30,
+      "minRounds": 2,
+      "maxRounds": 6,
+      "meanRounds": 3.6818181818181817,
+      "attackWins": 17,
+      "counterWins": 19
+    },
+    {
+      "presses": 20,
+      "legacyWinnable": 27,
+      "winnable": 28,
+      "total": 30,
+      "minRounds": 2,
+      "maxRounds": 5,
+      "meanRounds": 2.9642857142857144,
+      "attackWins": 24,
+      "counterWins": 27
+    },
+    {
+      "presses": 30,
+      "legacyWinnable": 29,
+      "winnable": 30,
+      "total": 30,
+      "minRounds": 2,
+      "maxRounds": 4,
+      "meanRounds": 2.7,
+      "attackWins": 27,
+      "counterWins": 29
+    }
+  ],
+  "rows": [
+    {
+      "player": "komodor",
+      "enemy": "grumbongo",
+      "presses": 0,
+      "legacy": {
+        "outcome": "defeat/draw",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "defeat/draw",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "komodor",
+      "enemy": "grumbongo",
+      "presses": 10,
+      "legacy": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "komodor",
+      "enemy": "grumbongo",
+      "presses": 20,
+      "legacy": {
+        "outcome": "draw/defeat",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "draw/defeat",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "draw",
+        "rounds": 4,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "komodor",
+      "enemy": "grumbongo",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "komodor",
+      "enemy": "kraken",
+      "presses": 0,
+      "legacy": {
+        "outcome": "draw/defeat",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "draw/defeat",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "draw",
+        "rounds": 4,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "komodor",
+      "enemy": "kraken",
+      "presses": 10,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "draw",
+        "rounds": 4,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "komodor",
+      "enemy": "kraken",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "komodor",
+      "enemy": "kraken",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "komodor",
+      "enemy": "hippocalypse",
+      "presses": 0,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "attack",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "attack",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 10,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "komodor",
+      "enemy": "hippocalypse",
+      "presses": 10,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "komodor",
+      "enemy": "hippocalypse",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 5,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "komodor",
+      "enemy": "hippocalypse",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "komodor",
+      "enemy": "condorion",
+      "presses": 0,
+      "legacy": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "komodor",
+      "enemy": "condorion",
+      "presses": 10,
+      "legacy": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "komodor",
+      "enemy": "condorion",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "komodor",
+      "enemy": "condorion",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "komodor",
+      "enemy": "sssirPent",
+      "presses": 0,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 5,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "komodor",
+      "enemy": "sssirPent",
+      "presses": 10,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "komodor",
+      "enemy": "sssirPent",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "komodor",
+      "enemy": "sssirPent",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "komodor",
+      "presses": 0,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "draw",
+        "rounds": 4,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "komodor",
+      "presses": 10,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "draw",
+        "rounds": 4,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "komodor",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "komodor",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "kraken",
+      "presses": 0,
+      "legacy": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "kraken",
+      "presses": 10,
+      "legacy": {
+        "outcome": "draw/defeat",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "draw/defeat",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "draw",
+        "rounds": 4,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "kraken",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "kraken",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "hippocalypse",
+      "presses": 0,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 5,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "hippocalypse",
+      "presses": 10,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "hippocalypse",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "hippocalypse",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "condorion",
+      "presses": 0,
+      "legacy": {
+        "outcome": "defeat/draw",
+        "rounds": 2,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "defeat/draw",
+        "rounds": 2,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "defeat",
+        "rounds": 2,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "draw",
+        "rounds": 2,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "condorion",
+      "presses": 10,
+      "legacy": {
+        "outcome": "draw/defeat",
+        "rounds": 2,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "draw/defeat",
+        "rounds": 2,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 2,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "draw",
+        "rounds": 2,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "condorion",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 2,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "condorion",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 2,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "sssirPent",
+      "presses": 0,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "draw",
+        "rounds": 4,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "sssirPent",
+      "presses": 10,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "sssirPent",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "grumbongo",
+      "enemy": "sssirPent",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "komodor",
+      "presses": 0,
+      "legacy": {
+        "outcome": "draw/defeat",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "draw/defeat",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "draw",
+        "rounds": 4,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "komodor",
+      "presses": 10,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "komodor",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "komodor",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "grumbongo",
+      "presses": 0,
+      "legacy": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "grumbongo",
+      "presses": 10,
+      "legacy": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "grumbongo",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "grumbongo",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "hippocalypse",
+      "presses": 0,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 5,
+        "sequence": [
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 5,
+        "sequence": [
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 8,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "hippocalypse",
+      "presses": 10,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "hippocalypse",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "hippocalypse",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "condorion",
+      "presses": 0,
+      "legacy": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "condorion",
+      "presses": 10,
+      "legacy": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "condorion",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "condorion",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "sssirPent",
+      "presses": 0,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "sssirPent",
+      "presses": 10,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "sssirPent",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "kraken",
+      "enemy": "sssirPent",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "komodor",
+      "presses": 0,
+      "legacy": {
+        "outcome": "defeat",
+        "rounds": 10,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 7,
+        "sequence": [
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "defeat",
+        "rounds": 10,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 8,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "komodor",
+      "presses": 10,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 10,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "attack",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 10,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "komodor",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 8,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 5,
+        "sequence": [
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 7,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "komodor",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 7,
+        "sequence": [
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 5,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "grumbongo",
+      "presses": 0,
+      "legacy": {
+        "outcome": "defeat",
+        "rounds": 5,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "defeat",
+        "rounds": 5,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "defeat",
+        "rounds": 5,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "defeat",
+        "rounds": 5,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "grumbongo",
+      "presses": 10,
+      "legacy": {
+        "outcome": "defeat",
+        "rounds": 6,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 5,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "defeat",
+        "rounds": 5,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "draw",
+        "rounds": 6,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "grumbongo",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 5,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "grumbongo",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "attack",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "kraken",
+      "presses": 0,
+      "legacy": {
+        "outcome": "defeat",
+        "rounds": 8,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "defeat",
+        "rounds": 8,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "kraken",
+      "presses": 10,
+      "legacy": {
+        "outcome": "defeat/draw",
+        "rounds": 10,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "attack",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "defeat",
+        "rounds": 8,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "kraken",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 8,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 7,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "kraken",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 5,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "condorion",
+      "presses": 0,
+      "legacy": {
+        "outcome": "defeat",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "defeat",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "defeat",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "defeat",
+        "rounds": 4,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "condorion",
+      "presses": 10,
+      "legacy": {
+        "outcome": "defeat",
+        "rounds": 5,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "defeat",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "condorion",
+      "presses": 20,
+      "legacy": {
+        "outcome": "defeat",
+        "rounds": 5,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "defeat",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "condorion",
+      "presses": 30,
+      "legacy": {
+        "outcome": "defeat/draw",
+        "rounds": 6,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "sssirPent",
+      "presses": 0,
+      "legacy": {
+        "outcome": "defeat/draw",
+        "rounds": 16,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 8,
+        "sequence": [
+          "attack",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "defeat",
+        "rounds": 16,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 8,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "sssirPent",
+      "presses": 10,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 12,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 10,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "sssirPent",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 8,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 5,
+        "sequence": [
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 7,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "hippocalypse",
+      "enemy": "sssirPent",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 8,
+        "sequence": [
+          "attack",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 5,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "komodor",
+      "presses": 0,
+      "legacy": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "komodor",
+      "presses": 10,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "komodor",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "komodor",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "grumbongo",
+      "presses": 0,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "grumbongo",
+      "presses": 10,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "grumbongo",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "grumbongo",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "kraken",
+      "presses": 0,
+      "legacy": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "kraken",
+      "presses": 10,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "kraken",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "kraken",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "hippocalypse",
+      "presses": 0,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "hippocalypse",
+      "presses": 10,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "hippocalypse",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "hippocalypse",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "sssirPent",
+      "presses": 0,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "draw",
+        "rounds": 4,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "sssirPent",
+      "presses": 10,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "sssirPent",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "condorion",
+      "enemy": "sssirPent",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "komodor",
+      "presses": 0,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 5,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "komodor",
+      "presses": 10,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "komodor",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "komodor",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "grumbongo",
+      "presses": 0,
+      "legacy": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "grumbongo",
+      "presses": 10,
+      "legacy": {
+        "outcome": "draw/defeat",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "draw/defeat",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "draw",
+        "rounds": 4,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "grumbongo",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "draw",
+        "rounds": 4,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "grumbongo",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "draw",
+        "rounds": 4,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "kraken",
+      "presses": 0,
+      "legacy": {
+        "outcome": "defeat/draw",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "defeat/draw",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "defeat",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "draw",
+        "rounds": 4,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "kraken",
+      "presses": 10,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 4,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "kraken",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "kraken",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 3,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "hippocalypse",
+      "presses": 0,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 16,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "hippocalypse",
+      "presses": 10,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 5,
+        "sequence": [
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 5,
+        "sequence": [
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 9,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "hippocalypse",
+      "presses": 20,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 6,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "hippocalypse",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "attack",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 5,
+        "sequence": [
+          "attack",
+          "attack",
+          "attack",
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 4,
+        "sequence": [
+          "defend",
+          "attack",
+          "defend",
+          "attack"
+        ]
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "condorion",
+      "presses": 0,
+      "legacy": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "condorion",
+      "presses": 10,
+      "legacy": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "condorion",
+      "presses": 20,
+      "legacy": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "optimal": {
+        "outcome": "draw/defeat",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "attack": {
+        "outcome": "draw",
+        "rounds": 3,
+        "exhausted": true
+      },
+      "counter": {
+        "outcome": "defeat",
+        "rounds": 3,
+        "exhausted": true
+      }
+    },
+    {
+      "player": "sssirPent",
+      "enemy": "condorion",
+      "presses": 30,
+      "legacy": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "optimal": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "attack": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "attack",
+          "attack"
+        ]
+      },
+      "counter": {
+        "outcome": "victory",
+        "rounds": 2,
+        "sequence": [
+          "defend",
+          "attack"
+        ]
+      }
+    }
+  ]
+}

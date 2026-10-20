@@ -10,7 +10,7 @@ test('GDD stats and a fresh independent match', () => {
 test('basic attack applies both damages from one immutable snapshot', () => {
   const s = initialBattle(); const result = resolveRound(s, 'attack', 0);
   assert.equal(result.dealt, 60); assert.equal(result.received, 75);
-  assert.deepEqual(result.state, { playerHP: 125, enemyHP: 125, charged: false, round: 2, outcome: null });
+  assert.deepEqual(result.state, { ...initialBattle(), playerHP: 125, enemyHP: 125, round: 2 });
   assert.deepEqual(s, initialBattle());
 });
 test('every valid press boosts the relevant attribute by exactly one percent', () => {

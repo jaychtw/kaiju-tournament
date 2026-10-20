@@ -1,7 +1,7 @@
 import './style.css';
 import { initialBattle, resolveRound, MASH_MS } from './combat.js';
 import { messages } from './i18n.js';
-import { createBattleScene } from './scene.js';
+import { createBattleScene } from './illustrated-scene.js';
 import { BattleAudio } from './audio.js';
 
 const icons = {
@@ -159,7 +159,7 @@ function reset() {
   view?.reset(); state = initialBattle(); phase = 'ready'; heldKeys.clear(); $('damage-layer').replaceChildren(); updateHP(); updateUI(); announce(t('ready'));
 }
 try {
-  view = createBattleScene($('battle'), {
+  view = await createBattleScene($('battle'), {
     onFrame(now) {
       if (phase === 'mash' && !document.hidden) {
         const left = Math.max(0, deadline - now); $('seconds').textContent = (left / 1000).toFixed(1); $('mash-progress').style.width = `${left / MASH_MS * 100}%`;
