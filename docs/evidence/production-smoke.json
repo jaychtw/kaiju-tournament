@@ -1,0 +1,79 @@
+{
+  "renderer": "Chromium / SwiftShader (software GPU), not a hardware-device benchmark",
+  "productionHTTP": "passed",
+  "high": {
+    "phase": "ready",
+    "state": {
+      "playerHP": 200,
+      "enemyHP": 185,
+      "charged": false,
+      "round": 1,
+      "outcome": null
+    },
+    "presses": 0,
+    "rendering": {
+      "fps": 2,
+      "drawCalls": 221,
+      "triangles": 238118,
+      "pixelRatio": 1,
+      "quality": "high"
+    }
+  },
+  "eco": {
+    "phase": "ready",
+    "state": {
+      "playerHP": 200,
+      "enemyHP": 185,
+      "charged": false,
+      "round": 1,
+      "outcome": null
+    },
+    "presses": 0,
+    "rendering": {
+      "fps": 2,
+      "drawCalls": 141,
+      "triangles": 156782,
+      "pixelRatio": 1,
+      "quality": "low"
+    }
+  },
+  "phone": {
+    "phase": "ready",
+    "state": {
+      "playerHP": 200,
+      "enemyHP": 185,
+      "charged": false,
+      "round": 1,
+      "outcome": null
+    },
+    "presses": 0,
+    "rendering": {
+      "fps": 2,
+      "drawCalls": 126,
+      "triangles": 153254,
+      "pixelRatio": 1.15,
+      "quality": "low"
+    }
+  },
+  "guarded": {
+    "phase": "ready",
+    "state": {
+      "playerHP": 138,
+      "enemyHP": 185,
+      "charged": true,
+      "round": 2,
+      "outcome": null
+    },
+    "presses": 13,
+    "rendering": {
+      "fps": 4,
+      "drawCalls": 144,
+      "triangles": 158318,
+      "pixelRatio": 1,
+      "quality": "low"
+    }
+  },
+  "errors": [],
+  "failedRequests": [],
+  "externalRequests": []
+}
