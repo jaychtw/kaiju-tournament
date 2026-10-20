@@ -1,0 +1,49 @@
+{
+  "created_date": "2026-10-20",
+  "tool": "image_gen.imagegen",
+  "model_identifier": "not exposed",
+  "seed": "not exposed",
+  "source_prompts": "ART-PROVENANCE.md",
+  "artistic_approval": "not approved",
+  "samples": [
+    {
+      "file": "01-painted-illustration.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "bytes": 2796412,
+      "sha256": "88481a1b2fe5b1160c16c783fb497a940e38978fe51b7df2e8072b4d6aed1e34",
+      "image_reference": "02-sculpted-look.png",
+      "type": "AI-generated static 2D art-direction target",
+      "production_asset": false,
+      "animation_validated": false,
+      "model_or_layered_source_produced": false
+    },
+    {
+      "file": "02-sculpted-look.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "bytes": 3014728,
+      "sha256": "0a2d6c2dcb7cf00ae2de8a0143edd6fbb18778863c14912d6e8ca8083362fb24",
+      "image_reference": null,
+      "type": "AI-generated static 2D art-direction target",
+      "production_asset": false,
+      "animation_validated": false,
+      "model_or_layered_source_produced": false
+    },
+    {
+      "file": "03-graphic-animation.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "bytes": 2832354,
+      "sha256": "0fc014a9fa7ec3f606c6ff9068bb6393ff728dba6d89a40c492405f0836a0934",
+      "image_reference": null,
+      "type": "AI-generated static 2D art-direction target",
+      "production_asset": false,
+      "animation_validated": false,
+      "model_or_layered_source_produced": false
+    }
+  ]
+}

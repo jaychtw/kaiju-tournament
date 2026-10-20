@@ -1,6 +1,19 @@
-# World Kaiju Tournament — battle POC
+# World Kaiju Tournament
 
-A playable, original 3D battle between **Komodor** and **Grumbongo**, based on the supplied [GDD v1.0](docs/GDD-v1.0.md). This is the visual review checkpoint: one arena, two characters, no tournament progression.
+**Current status: visual-direction review. The initial POC did not achieve artistic acceptance.** Its engineering remains useful; its procedural 3D presentation is not the approved direction, and no new playable battle or full game is being implemented at this checkpoint.
+
+- [New visual samples and review gallery](docs/visual-direction/README.md)
+- [Four production pipelines and recommendation](docs/visual-direction/PIPELINE-COMPARISON.md)
+- [Current GDD v1.1 — rendering technology is optional](docs/GDD-v1.1.md)
+- [Proposed next POC and acceptance gates — not started](docs/visual-direction/NEXT-POC.md)
+
+![Graphic illustrated visual-direction target: rear-facing Komodor and front-facing Grumbongo](docs/visual-direction/03-graphic-animation.png)
+
+*AI-generated static art target for review. This is not a screenshot from a new game or proof of a layered/animated asset pipeline. No direction is approved yet.*
+
+## Initial POC — historical engineering reference
+
+The playable 3D **Komodor versus Grumbongo** experiment below is retained for its combat rules, interaction, localization, and tests. Its initial [GDD v1.0](docs/GDD-v1.0.md) and [historical review](docs/POC-REVIEW.md) remain available. Commit [`bd13bd8`](https://github.com/jaychtw/kaiju-tournament/commit/bd13bd887888921f1d6fcd646ae82b204b3df628) preserves the exact original build. The run instructions below refer to that retained technical experiment, not to the new visual targets.
 
 ![Komodor and Grumbongo in the sunlit arena, captured from the production build](docs/evidence/desktop-high.png)
 
@@ -52,7 +65,7 @@ With no mash presses, three basic Attacks lose. Defend → Charged Attack → At
 - `src/combat.js` is a renderer-independent pure rules module. Animation order cannot change the combat calculation. `src/i18n.js` owns the English and Traditional Chinese text. `src/main.js` handles the UI and input.
 - Fonts are bundled locally: **Barlow Condensed** and **DM Sans**, under the SIL Open Font License. Chinese uses the device's CJK font. Third-party licenses are in `docs/licenses/`.
 
-See [the visual review and limitations](docs/POC-REVIEW.md) before treating this as a production art standard.
+This pipeline did not meet artistic acceptance. See [the new production reassessment](docs/visual-direction/PIPELINE-COMPARISON.md); the descriptions above explain the historical build, not the recommended future graphics.
 
 ## Validation
 
@@ -79,4 +92,4 @@ High caps DPR at 1.7 and enables dynamic character shadows. Eco caps DPR at 1.15
 
 ## Review boundary
 
-The POC ends here. Tournament grounds, selection, four additional kaiju, and championship progression are deliberately absent. Full production requires review and approval of the visual direction and asset workflow first.
+Work is paused at the visual-direction review described in [GDD v1.1, Section 12](docs/GDD-v1.1.md#12-visual-development-and-proof-of-concept-milestones). Do not refine the current graphics by default, deploy them to GitHub Pages, implement another full playable battle, or expand into the full roster/tournament before the required reviews and approvals. The next proposed step is a bounded animated-asset trial after direction approval.

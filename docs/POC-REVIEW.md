@@ -1,5 +1,7 @@
 # Battle POC review
 
+> **Historical report, superseded by the user's visual reassessment.** The initial POC failed artistic acceptance; its presentation is closer to previs than a finished game. The comments below record the initial evaluation, not an approved direction. In particular, the suggestion below to proceed with sculpted GLB assets is no longer the default next step. Read the [current pipeline comparison](visual-direction/PIPELINE-COMPARISON.md), [new samples](visual-direction/README.md), and [GDD v1.1](GDD-v1.1.md). No new full playable battle or deployment is authorized by this report.
+
 ## The experiment
 
 The visual direction is a **sunlit coastal kaiju festival**. Sandstone architecture and a parchment-and-ink interface frame teal/coral Komodor against Grumbongo's charcoal/silver silhouette. The camera shows the player from the rear foreground and the opponent from the front background. Both characters are rendered and animated in actual 3D.
