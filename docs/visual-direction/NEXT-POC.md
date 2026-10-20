@@ -1,5 +1,7 @@
 # Proposed next POC — approval required
 
+> **Production update:** The user accepted the pose-based trial and approved the complete six-kaiju game. The former stop/gate recommendations below are historical and superseded by the [v1.0 production brief](../release/PRODUCTION-BRIEF.md) and [release review](../release/REVIEW.md). Continuous rigging is not required.
+
 **Gate status:** sample 03 was approved as the target for a bounded tool-assisted animation feasibility trial. Gate 2's [trial and assessment](../animation-trial/REPORT.md) are delivered for review with partial results. **Gate 3, another complete playable battle, is not approved or started.** The initial real-time 3D POC remains a historical technical experiment.
 
 ## Gate 1: choose the visible direction and art workflow

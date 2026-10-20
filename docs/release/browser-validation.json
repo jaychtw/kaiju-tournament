@@ -19,7 +19,7 @@
       ]
     },
     {
-      "title": "Guard → charged Attack → Attack resolves double KO; draw records loss and next match resets HP",
+      "title": "Guard \u2192 charged Attack \u2192 Attack resolves double KO; draw records loss and next match resets HP",
       "status": "expected",
       "results": [
         {
@@ -129,5 +129,39 @@
       ]
     }
   ],
-  "note": "Headless Linux Chromium; emulated phone viewports, not physical devices. Six complete winning tournaments use controlled clock advancement after input."
+  "note": "Headless Linux Chromium; emulated phone viewports, not physical devices. Six complete winning tournaments use controlled clock advancement after input.",
+  "additionalPhoneRun": {
+    "stats": {
+      "startTime": "2026-10-20T05:53:53.769Z",
+      "duration": 13009.055,
+      "expected": 1,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "title": "Complete touch tournament with wins/losses/draws, fifth place, localized results and restart"
+  },
+  "totalPassedScenarios": 14,
+  "additionalRetryRun": {
+    "stats": {
+      "startTime": "2026-10-20T05:57:46.702Z",
+      "duration": 9824.329000000002,
+      "expected": 1,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "title": "Failed battle asset can retry; live language switch preserves mashing"
+  },
+  "legibilityRecheck": {
+    "stats": {
+      "startTime": "2026-10-20T06:02:24.545Z",
+      "duration": 15639.895,
+      "expected": 1,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "note": "Same phone control scenario repeated after increasing secondary text sizes; portrait 360px and landscape controls still fit."
+  }
 }

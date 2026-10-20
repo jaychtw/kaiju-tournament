@@ -1,5 +1,7 @@
 # Animation feasibility trial — assessment
 
+> **Production update:** The user accepted the pose-based trial and approved the complete six-kaiju game. The former stop/gate recommendations below are historical and superseded by the [v1.0 production brief](../release/PRODUCTION-BRIEF.md) and [release review](../release/REVIEW.md). Continuous rigging is not required.
+
 **Outcome: partial feasibility, not a production pass.** We can turn the approved illustration into attractive, reusable alpha pose drawings and reproduce a ten-second scene from them. This trial does **not** establish that an autonomous workflow can deliver sample 03's quality as consistent, convincing, production-ready animation. The remaining bottleneck is character/animation asset production, not whether a browser can display the images.
 
 Sample 03 was approved as the target for this bounded experiment only. It remains [byte-identical](../../experiments/animation-trial/assets/benchmark.png). No complete battle, gameplay change, full roster, exploration, or engine migration was implemented.

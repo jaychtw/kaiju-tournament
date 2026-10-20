@@ -21,7 +21,7 @@ for name in ['arena','grounds']:
 for path,source in sources['sources'].items(): assert hashlib.sha256((R/path).read_bytes()).hexdigest()==source['sha256']
 all_decoded=sum(v['decoded_rgba_bytes'] for v in views.values())+2*1536*1024*4
 worst=max(views[f'{p}/rear']['decoded_rgba_bytes']+views[f'{e}/front']['decoded_rgba_bytes']+1536*1024*4+1200*800*4 for p in ids for e in ids if p!=e)
-report={'views':views,'runtime_art_bytes':total,'all_art_decoded_rgba_bytes':all_decoded,'largest_match_images_plus_canvas_bytes':worst,'physical_mobile_verified':False,'note':'RGBA arithmetic only; excludes browser/GPU/process overhead and thumbnail copies. Cache may retain views across a tournament.'}
+report={'views':views,'runtime_art_bytes':total,'all_art_decoded_rgba_bytes':all_decoded,'largest_match_images_plus_canvas_bytes':worst,'physical_mobile_verified':False,'note':'RGBA arithmetic only; excludes browser/GPU/process overhead and thumbnail copies. Application drops battle image references on leaving a match; browser cache/GC are implementation-dependent.'}
 assert total<12*1024*1024;assert all_decoded<128*1024*1024
 (R/'docs/release/art-validation.json').write_text(json.dumps(report,indent=2)+'\n');gallery.save(R/'docs/release/roster-views.jpg',quality=88)
 print(json.dumps(report,indent=2))

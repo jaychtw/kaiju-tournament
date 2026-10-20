@@ -53,5 +53,5 @@
   "all_art_decoded_rgba_bytes": 103712184,
   "largest_match_images_plus_canvas_bytes": 45878700,
   "physical_mobile_verified": false,
-  "note": "RGBA arithmetic only; excludes browser/GPU/process overhead and thumbnail copies. Cache may retain views across a tournament."
+  "note": "RGBA arithmetic only; excludes browser/GPU/process overhead and thumbnail copies. Application drops battle image references on leaving a match; browser cache/GC are implementation-dependent."
 }

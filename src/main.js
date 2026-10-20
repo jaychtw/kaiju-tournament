@@ -150,6 +150,6 @@ document.addEventListener('visibilitychange',()=>{input.clear();if(document.hidd
 window.wktDiagnostics=()=>({screen,phase,selected,presses,state:battle?{...battle}:null,tournament:tournament?JSON.parse(JSON.stringify(tournament)):null,position:grounds?.getPosition()||null,rendering:view?.getStats()||null});
 async function boot(){
   $('content').innerHTML=`<div class="boot-message"><span class="loader"></span><p data-i="loading"></p></div>`;translate();
-  try{art=await getArt();renderSelection();}catch{screen='error';$('content').innerHTML=`<div class="boot-message"><p>${t('loadError')}</p><button id="boot-retry" class="primary">${t('retry')}</button></div>`;$('boot-retry').addEventListener('click',boot);}
+  try{art=await getArt();renderSelection();}catch{screen='error';$('content').innerHTML=`<div class="boot-message"><p data-i="loadError">${t('loadError')}</p><button id="boot-retry" class="primary" data-i="retry">${t('retry')}</button></div>`;$('boot-retry').addEventListener('click',boot);}
 }
 boot();

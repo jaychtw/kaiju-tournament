@@ -31,3 +31,9 @@ test('phone touch counts each tap once, bilingual instructions work, charged con
 test('three zero-press attacks lose; loss keeps the tournament open',async({page})=>{
   await ready(page);for(let i=0;i<3;i++)await round(page,'attack');await expect(page.locator('#result-kind')).toHaveText('Loss');await expect(page.locator('#player-hp')).toHaveText('0');await expect(page.locator('#enemy-hp')).toHaveText('5');await page.locator('#continue').click();await expect(page.locator('#grounds-world')).toBeVisible();await expect(page.locator('#walk-grumbongo')).toBeDisabled();
 });
+
+test('failed battle artwork can retry; switching language during mashing keeps presses and HP',async({page})=>{
+  await page.route('**/art/g_attack_2.webp',route=>route.abort());await select(page);await page.locator('#walk-grumbongo').click();await expect(page.locator('#challenge-dialog')).toBeVisible();await page.locator('#accept-challenge').click();await expect(page.locator('#load-error')).toBeVisible();await expect(page.locator('#attack')).toBeDisabled();
+  await page.locator('#zh').click();await expect(page.locator('#retry')).toHaveText('重試');await page.unroute('**/art/g_attack_2.webp');await page.locator('#retry').click();await expect.poll(()=>page.evaluate(()=>window.wktDiagnostics().phase)).toBe('ready');
+  await page.locator('#attack').click();await discretePresses(page,3);await page.locator('#en').click();await expect(page.locator('#press-count')).toHaveText('3');await expect(page.locator('#multiplier')).toHaveText('×1.03');await untilReady(page);await expect(page.locator('#player-hp')).toHaveText('125');await expect(page.locator('#enemy-hp')).toHaveText('120');
+});

@@ -1,0 +1,77 @@
+{
+  "url": "http://127.0.0.1:4176/kaiju-tournament/",
+  "date": "2026-10-20T06:03:11.422Z",
+  "browser": "154.0.8037.57",
+  "environment": {
+    "platform": "linux",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "logicalCPUs": 5
+  },
+  "coverage": "Headless Linux Chromium and emulated phone viewport. No physical phone, Safari, thermal, battery or low-end device verification.",
+  "samples": [
+    {
+      "viewport": "1280x900 desktop DPR1",
+      "selectionLoadedMs": 274.12717699999996,
+      "idle": {
+        "renderer": "Canvas 2D · illustrated poses",
+        "frames": 663,
+        "quality": "high",
+        "medianFrameMs": 16.69999999999891,
+        "p95FrameMs": 16.799999999999272,
+        "meanDrawMs": 0.08966666664928198,
+        "loadedImages": 29
+      },
+      "combat": {
+        "renderer": "Canvas 2D · illustrated poses",
+        "frames": 1028,
+        "quality": "high",
+        "medianFrameMs": 16.69999999999891,
+        "p95FrameMs": 16.799999999999272,
+        "meanDrawMs": 0.12699999996150532,
+        "loadedImages": 29
+      },
+      "encodedResourceBytes": 3875689,
+      "transferredResourceBytes": 3888604,
+      "requests": 44,
+      "externalRequests": [],
+      "errors": [],
+      "failedResponses": [],
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": "390x844 touch emulation DPR2",
+      "selectionLoadedMs": 243.9651049999993,
+      "idle": {
+        "renderer": "Canvas 2D · illustrated poses",
+        "frames": 665,
+        "quality": "high",
+        "medianFrameMs": 16.699999999999818,
+        "p95FrameMs": 16.700000000000728,
+        "meanDrawMs": 0.09116666665921609,
+        "loadedImages": 29
+      },
+      "combat": {
+        "renderer": "Canvas 2D · illustrated poses",
+        "frames": 1013,
+        "quality": "high",
+        "medianFrameMs": 16.69999999999891,
+        "p95FrameMs": 16.700000000000728,
+        "meanDrawMs": 0.11666666666356226,
+        "loadedImages": 29
+      },
+      "encodedResourceBytes": 3875689,
+      "transferredResourceBytes": 3888304,
+      "requests": 44,
+      "externalRequests": [],
+      "errors": [],
+      "failedResponses": [],
+      "horizontalOverflow": false
+    }
+  ],
+  "bundle": {
+    "files": 85,
+    "bytes": 7463385,
+    "jsBytes": 46745,
+    "cssBytes": 27804
+  }
+}
