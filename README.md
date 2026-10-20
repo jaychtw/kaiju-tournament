@@ -5,6 +5,7 @@ A complete, single-player illustrated kaiju tournament for desktop and mobile br
 ![The six illustrated contenders](docs/release/roster-views.jpg)
 
 ## Run
+URL: https://jaychtw.github.io/kaiju-tournament/
 
 Requires Node 24 and npm. From this repository:
 
