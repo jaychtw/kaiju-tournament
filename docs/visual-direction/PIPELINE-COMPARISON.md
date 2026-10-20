@@ -1,6 +1,6 @@
 # Visual production reassessment
 
-**Status: visual direction unapproved.** This package proposes a new direction; it does not approve one or implement another playable battle. The [review brief](REASSESSMENT-BRIEF.md) supersedes the initial POC's assumption that real-time 3D was the preferred route.
+**Approval update:** sample 03 was approved as the visual target for a bounded autonomous animation trial. The [trial result](../animation-trial/REPORT.md) is partial and does not establish production readiness. This comparison remains the rationale for the proposed workflow, not authorization for another playable battle or the full game. The [review brief](REASSESSMENT-BRIEF.md) supersedes the initial POC's assumption that real-time 3D was the preferred route.
 
 The first POC demonstrated working combat rules, interaction, localization, and a browser implementation. It **failed artistic acceptance**. Its assembled character anatomy and procedural presentation are closer to previs than the intended finished game. More effects or polygons would not resolve the central character-art problem. Its slow software-GPU measurements also did not establish hardware-device performance. The source remains unchanged and available at commit [`bd13bd8`](https://github.com/jaychtw/kaiju-tournament/commit/bd13bd887888921f1d6fcd646ae82b204b3df628).
 
@@ -76,7 +76,7 @@ The comparison holds the battle idea constant: a rear-facing Komodor in the lowe
 
 ## Recommendation
 
-Use **D with illustrated characters and a painted layered arena**, taking **sample 03's expressive graphic character treatment** as the starting candidate. Its more designed gorilla face, silver crest, alert reptile profile, and clear light/shadow masses fit the slightly cartoonish sporting world better than sample 02's naturalistic surface rendering. Sample 01 remains a viable softer painterly alternative. This is a proposed direction for review, not a selected engine or an approved style. It combines A's direct control of the image with modest real-time staging. The whole battle may remain 2D/2.5D.
+Use **D with illustrated characters and a painted layered arena**, taking **sample 03's expressive graphic character treatment** as the target. Its more designed gorilla face, silver crest, alert reptile profile, and clear light/shadow masses fit the slightly cartoonish sporting world better than sample 02's naturalistic surface rendering. Sample 01 remains a softer painterly alternative. The user approved sample 03 for the animation trial; the production workflow and a game-engine choice remain provisional. This combines A's direct control of the image with modest real-time staging. The whole battle may remain 2D/2.5D.
 
 This is the best current fit because our composition is directed, the player evaluates large characters at two known view conventions, and the immediate failure was in visible character art. Image generation can already explore that visible target; an illustrator can refine it directly. Real-time 3D adds little value until good models exist. Pre-rendered 3D remains a credible alternative if a capable character-asset team or verified high-quality model workflow becomes available; it should not be chosen on the assumption that such models can be generated automatically here.
 

@@ -1,0 +1,374 @@
+{
+  "version": 1,
+  "duration": 10,
+  "fps": 30,
+  "size": [
+    1200,
+    800
+  ],
+  "arena": "assets/arena.png",
+  "draw_order": [
+    "grumbongo",
+    "komodor"
+  ],
+  "contacts": {
+    "guard": [
+      660,
+      365
+    ],
+    "counter": [
+      850,
+      330
+    ]
+  },
+  "phases": [
+    {
+      "t": 0,
+      "label": "Idle"
+    },
+    {
+      "t": 1.5,
+      "label": "Defend / incoming attack"
+    },
+    {
+      "t": 2.6,
+      "label": "Guard absorption"
+    },
+    {
+      "t": 3.25,
+      "label": "Counter preparation"
+    },
+    {
+      "t": 4.65,
+      "label": "Charged strike"
+    },
+    {
+      "t": 5.1,
+      "label": "Opponent reaction"
+    },
+    {
+      "t": 5.8,
+      "label": "Recovery"
+    },
+    {
+      "t": 7.4,
+      "label": "Stable ready"
+    }
+  ],
+  "actors": {
+    "komodor": {
+      "scale": 1.05,
+      "shadow": [
+        130,
+        18
+      ],
+      "shadow_offset": [
+        -90,
+        0
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "frame": "k_idle_0",
+          "root": [
+            620,
+            700
+          ]
+        },
+        {
+          "t": 0.5,
+          "frame": "k_idle_1",
+          "root": [
+            620,
+            700
+          ]
+        },
+        {
+          "t": 1,
+          "frame": "k_idle_2",
+          "root": [
+            620,
+            700
+          ]
+        },
+        {
+          "t": 1.35,
+          "frame": "k_idle_3",
+          "root": [
+            620,
+            700
+          ]
+        },
+        {
+          "t": 1.55,
+          "frame": "k_guard_0",
+          "root": [
+            620,
+            700
+          ]
+        },
+        {
+          "t": 1.8,
+          "frame": "k_guard_1",
+          "root": [
+            620,
+            700
+          ]
+        },
+        {
+          "t": 2.1,
+          "frame": "k_guard_2",
+          "root": [
+            620,
+            700
+          ]
+        },
+        {
+          "t": 2.6,
+          "frame": "k_guard_3",
+          "root": [
+            620,
+            700
+          ]
+        },
+        {
+          "t": 2.9,
+          "frame": "k_guard_2",
+          "root": [
+            620,
+            700
+          ]
+        },
+        {
+          "t": 3.2,
+          "frame": "k_counter_0",
+          "root": [
+            620,
+            700
+          ]
+        },
+        {
+          "t": 3.45,
+          "frame": "k_counter_1",
+          "root": [
+            620,
+            700
+          ]
+        },
+        {
+          "t": 3.8,
+          "frame": "k_counter_2",
+          "root": [
+            620,
+            700
+          ]
+        },
+        {
+          "t": 4.35,
+          "frame": "k_strike_0",
+          "root": [
+            625,
+            700
+          ]
+        },
+        {
+          "t": 4.65,
+          "frame": "k_counter_3",
+          "root": [
+            650,
+            695
+          ]
+        },
+        {
+          "t": 4.95,
+          "frame": "k_strike_1",
+          "root": [
+            700,
+            685
+          ]
+        },
+        {
+          "t": 5.15,
+          "frame": "k_strike_2",
+          "root": [
+            715,
+            685
+          ]
+        },
+        {
+          "t": 5.5,
+          "frame": "k_strike_3",
+          "root": [
+            700,
+            690
+          ]
+        },
+        {
+          "t": 5.8,
+          "frame": "k_recovery_0",
+          "root": [
+            680,
+            695
+          ]
+        },
+        {
+          "t": 6.15,
+          "frame": "k_recovery_1",
+          "root": [
+            660,
+            700
+          ]
+        },
+        {
+          "t": 6.6,
+          "frame": "k_recovery_2",
+          "root": [
+            640,
+            700
+          ]
+        },
+        {
+          "t": 7.05,
+          "frame": "k_recovery_3",
+          "root": [
+            620,
+            700
+          ]
+        },
+        {
+          "t": 7.5,
+          "frame": "k_idle_0",
+          "root": [
+            620,
+            700
+          ]
+        },
+        {
+          "t": 8,
+          "frame": "k_idle_1",
+          "root": [
+            620,
+            700
+          ]
+        },
+        {
+          "t": 8.5,
+          "frame": "k_idle_2",
+          "root": [
+            620,
+            700
+          ]
+        },
+        {
+          "t": 9,
+          "frame": "k_idle_0",
+          "root": [
+            620,
+            700
+          ]
+        },
+        {
+          "t": 9.5,
+          "frame": "k_idle_1",
+          "root": [
+            620,
+            700
+          ]
+        }
+      ]
+    },
+    "grumbongo": {
+      "scale": 0.92,
+      "shadow": [
+        210,
+        22
+      ],
+      "shadow_offset": [
+        -195,
+        0
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "frame": "g_attack_0",
+          "root": [
+            1100,
+            525
+          ]
+        },
+        {
+          "t": 1.6,
+          "frame": "g_attack_1",
+          "root": [
+            1100,
+            525
+          ]
+        },
+        {
+          "t": 2.6,
+          "frame": "g_attack_2",
+          "root": [
+            1100,
+            525
+          ]
+        },
+        {
+          "t": 2.9,
+          "frame": "g_attack_3",
+          "root": [
+            1100,
+            525
+          ]
+        },
+        {
+          "t": 3.25,
+          "frame": "g_attack_0",
+          "root": [
+            1100,
+            525
+          ]
+        },
+        {
+          "t": 5.0,
+          "frame": "g_reaction_0",
+          "root": [
+            1100,
+            525
+          ]
+        },
+        {
+          "t": 5.2,
+          "frame": "g_reaction_1",
+          "root": [
+            1100,
+            525
+          ]
+        },
+        {
+          "t": 5.65,
+          "frame": "g_reaction_2",
+          "root": [
+            1100,
+            525
+          ]
+        },
+        {
+          "t": 6.25,
+          "frame": "g_reaction_3",
+          "root": [
+            1100,
+            525
+          ]
+        },
+        {
+          "t": 7.4,
+          "frame": "g_attack_0",
+          "root": [
+            1100,
+            525
+          ]
+        }
+      ]
+    }
+  }
+}

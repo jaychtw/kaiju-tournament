@@ -7,7 +7,7 @@
 **Primary audience:** Family-friendly, accessible to children and enjoyable for older players  
 **Development approach:** Design-first collaboration, followed by AI-assisted implementation
 
-**Revision status:** Visual-production reassessment; no new artistic direction or production pipeline has been approved. The initial POC passed engineering checks but failed artistic acceptance.
+**Revision status:** Sample 03 has been approved as the visual target for a bounded tool-assisted animation feasibility trial only. That trial is [delivered for review](animation-trial/REPORT.md), with partial results; no production pipeline, another complete playable battle, or full production is approved. The initial POC passed engineering checks but failed artistic acceptance.
 
 **Revision scope:** Rendering technology is optional. Gameplay, all six kaiju statistics, simultaneous resolution, the three-second mash window, Guard & Counter, tournament rules, and bilingual requirements remain unchanged. The original [GDD v1.0](GDD-v1.0.md) is retained as historical source.
 
@@ -557,7 +557,7 @@ The first Komodor-versus-Grumbongo POC at commit [`bd13bd8`](https://github.com/
 
 This result is not approval of the current graphics or a reason to continue refining them by default. Preserve useful rules, data, localization, input behavior, and tests. Keep the initial POC in version control for reference. No GitHub Pages deployment is required. Its software-GPU observations do not establish hardware-device performance or a general browser quality ceiling.
 
-### 12.2 Current checkpoint — visual direction before implementation
+### 12.2 Visual-direction comparison — completed before animation trial
 
 Compare at least:
 
@@ -572,9 +572,11 @@ Label art targets, production assets, rendered game screenshots, animation evide
 
 Deliver the comparison, samples, a reasoned production recommendation, updated design documentation, and a proposed next POC with acceptance criteria. **Stop for explicit user review and approval. Do not implement another full playable battle or the complete game during this phase.**
 
-The [visual-direction review package](visual-direction/README.md), [pipeline comparison](visual-direction/PIPELINE-COMPARISON.md), and [proposed next-POC gates](visual-direction/NEXT-POC.md) provide the current proposals. They do not imply approval.
+The [visual-direction review package](visual-direction/README.md), [pipeline comparison](visual-direction/PIPELINE-COMPARISON.md), and [proposed next-POC gates](visual-direction/NEXT-POC.md) record those proposals. The user subsequently approved sample 03 as the target for Section 12.3's bounded autonomous trial; that approval does not authorize Section 12.4 or full production.
 
 ### 12.3 After direction approval — prove the animated assets
+
+**Current checkpoint:** the user authorized the [animation feasibility trial](animation-trial/AUTHORIZATION.md). The [actual output and assessment](animation-trial/REPORT.md) are delivered for review. Reusable drawn frames and deterministic exports are demonstrated; production-quality continuous motion and consistency are not established. Stop for review before any dependent work.
 
 Before implementing the next complete battle, demonstrate a short, genuinely reusable animated asset trial. It must show consistent anatomy, expressive faces, anticipation, contact, mass, recovery, ground contact, coherent lighting, and inspectable source/export assets. A single-image wobble, crossfade between inconsistent images, or generated video without reusable assets does not establish an animation-production workflow.
 

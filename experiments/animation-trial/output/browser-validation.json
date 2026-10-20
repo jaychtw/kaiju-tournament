@@ -1,0 +1,95 @@
+{
+  "transport": "local HTTP",
+  "fileProtocol": "Blocked by cloud managed-browser policy (ERR_BLOCKED_BY_ADMINISTRATOR); not bypassed; file launch on an unmanaged browser unverified",
+  "checks": [
+    {
+      "ready": true,
+      "time": 0,
+      "playing": false,
+      "effects": false,
+      "frames": {
+        "komodor": "k_idle_0",
+        "grumbongo": "g_attack_0"
+      },
+      "poseCount": 28
+    },
+    {
+      "ready": true,
+      "time": 2.65,
+      "playing": false,
+      "effects": false,
+      "frames": {
+        "komodor": "k_guard_3",
+        "grumbongo": "g_attack_2"
+      },
+      "poseCount": 28
+    },
+    {
+      "ready": true,
+      "time": 3.8,
+      "playing": false,
+      "effects": false,
+      "frames": {
+        "komodor": "k_counter_2",
+        "grumbongo": "g_attack_0"
+      },
+      "poseCount": 28
+    },
+    {
+      "ready": true,
+      "time": 5.05,
+      "playing": false,
+      "effects": false,
+      "frames": {
+        "komodor": "k_strike_1",
+        "grumbongo": "g_reaction_0"
+      },
+      "poseCount": 28
+    },
+    {
+      "ready": true,
+      "time": 5.3,
+      "playing": false,
+      "effects": false,
+      "frames": {
+        "komodor": "k_strike_2",
+        "grumbongo": "g_reaction_1"
+      },
+      "poseCount": 28
+    },
+    {
+      "ready": true,
+      "time": 7.3,
+      "playing": false,
+      "effects": false,
+      "frames": {
+        "komodor": "k_recovery_3",
+        "grumbongo": "g_reaction_3"
+      },
+      "poseCount": 28
+    },
+    {
+      "ready": true,
+      "time": 9.9,
+      "playing": false,
+      "effects": false,
+      "frames": {
+        "komodor": "k_idle_1",
+        "grumbongo": "g_attack_0"
+      },
+      "poseCount": 28
+    }
+  ],
+  "playbackAdvanced": true,
+  "phoneViewport": "390x844; no horizontal overflow",
+  "video": {
+    "duration": 10,
+    "width": 1200,
+    "height": 800,
+    "readyState": 4
+  },
+  "encodedVideoPlayed": true,
+  "errors": [],
+  "externalRequests": [],
+  "physicalDeviceTest": false
+}

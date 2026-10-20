@@ -1,0 +1,5 @@
+# Reproduce the locally used free/open-source asset-processing environment.
+# FFmpeg 7.1.5 with libx264 is also required as a system executable.
+Pillow==12.3.0
+numpy==2.3.5
+scipy==1.17.0

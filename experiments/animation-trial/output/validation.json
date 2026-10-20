@@ -1,0 +1,61 @@
+{
+  "benchmark_unchanged": true,
+  "source_and_frame_hashes": "pass",
+  "unique_reused_drawings": 28,
+  "deterministic_composition": true,
+  "videos": [
+    {
+      "file": "motion-study.mp4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1200,
+          "height": 800,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30/1",
+          "nb_read_frames": "300"
+        }
+      ],
+      "format": {
+        "duration": "10.000000",
+        "size": "3569737"
+      }
+    },
+    {
+      "file": "motion-study-effects.mp4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1200,
+          "height": 800,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30/1",
+          "nb_read_frames": "300"
+        }
+      ],
+      "format": {
+        "duration": "10.000000",
+        "size": "3573576"
+      }
+    }
+  ],
+  "video_matches_reusable_sources": [
+    {
+      "frame": 0,
+      "rgb_mean_absolute_error": 3.7363
+    },
+    {
+      "frame": 155,
+      "rgb_mean_absolute_error": 3.8668
+    },
+    {
+      "frame": 290,
+      "rgb_mean_absolute_error": 3.654
+    }
+  ],
+  "artistic_acceptance": "not determined by these checks; see report and inspect playback"
+}

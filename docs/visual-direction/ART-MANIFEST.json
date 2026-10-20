@@ -4,7 +4,7 @@
   "model_identifier": "not exposed",
   "seed": "not exposed",
   "source_prompts": "ART-PROVENANCE.md",
-  "artistic_approval": "not approved",
+  "artistic_approval": "sample 03 approved as animation-trial visual target only; production not approved",
   "samples": [
     {
       "file": "01-painted-illustration.png",
@@ -45,5 +45,11 @@
       "animation_validated": false,
       "model_or_layered_source_produced": false
     }
-  ]
+  ],
+  "approval_update": {
+    "sample": "03-graphic-animation.png",
+    "scope": "Approved by user as visual benchmark for the bounded animation feasibility trial only",
+    "authorization": "../animation-trial/AUTHORIZATION.md",
+    "production_pipeline_approved": false
+  }
 }

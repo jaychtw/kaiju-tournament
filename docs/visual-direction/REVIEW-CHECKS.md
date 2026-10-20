@@ -1,5 +1,7 @@
 # Review-package checks
 
+> Historical checks for the static visual-direction package. The user subsequently approved sample 03 for the [animation trial](../animation-trial/REPORT.md); see that report for new sources, motion evidence, and remaining limitations. The statements below describe the earlier still-image checkpoint.
+
 Checked on 2026-10-20.
 
 - All three published PNGs were generated, visually inspected, and classified by their actual appearance. Each is 1536×1024 RGB; byte sizes and SHA-256 hashes are recorded in `ART-MANIFEST.json`.

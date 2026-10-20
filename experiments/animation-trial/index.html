@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>World Kaiju Tournament — animation feasibility trial</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="viewer.css">
+  <script defer src="data.js"></script>
+  <script defer src="viewer.js"></script>
+</head>
+<body>
+  <header><span class="eyebrow">WORLD KAIJU TOURNAMENT · EXPERIMENT 02</span><h1>Animation feasibility trial</h1><p>A silent, ten-second study made from reusable pose drawings. Judge the anatomy and motion with effects off first.</p></header>
+  <main>
+    <p id="loading" role="status">Loading source drawings…</p>
+    <section class="review-grid" aria-label="Result and approved benchmark">
+      <div class="stage"><canvas id="study" width="1200" height="800" aria-label="Komodor guards, counters, strikes, and recovers while Grumbongo attacks and reacts"></canvas></div>
+      <aside><strong>Approved target · sample 03</strong><a href="assets/benchmark.png" target="_blank" rel="noopener"><img src="assets/benchmark.png" alt="The unmodified approved graphic illustration"></a><p>The target remains unchanged. Click to inspect full size.</p><p id="current-pose"></p><a href="../../docs/animation-trial/REPORT.md">Assessment and production report</a></aside>
+    </section>
+    <section class="transport" aria-label="Animation review controls">
+      <button id="play" disabled>Play</button><button id="reset" disabled>Restart</button><button id="step" disabled>Frame +</button>
+      <label>Speed <select id="speed"><option value="1">1×</option><option value="0.5">½×</option><option value="0.25">¼×</option></select></label>
+      <output id="time">0.00 / 10.00 s</output>
+      <input id="scrub" type="range" min="0" max="10" step="0.0333333333" value="0" aria-label="Animation time" disabled>
+      <label><input id="effects" type="checkbox"> Decorative accents</label><label><input id="guides" type="checkbox"> Foot-registration guides</label>
+      <label>Background <select id="background"><option value="arena">Arena</option><option value="light">Light matte</option><option value="dark">Dark matte</option></select></label>
+      <label>Phase <select id="phase"></select></label>
+    </section>
+    <p class="note">The major body actions are separate drawings. There is no generated-video step, crossfade, optical-flow morph, animated whole-image rotation, or animated scale. Frame holds and position changes are visible in the timeline and are not evidence of fluid animation.</p>
+    <details><summary>Inspect reusable drawings and source files</summary><div class="inspector"><div><label>Pose drawing <select id="frame-select"></select></label><p id="frame-info"></p><a id="frame-download" download>Download this RGBA sprite</a><p><a href="assets.json">Frame manifest</a> · <a href="timeline.json">Timing and root positions</a> · <a href="source-map.json">Source-sheet registration</a></p><p>The raw sheets are in <code>assets/source/</code>. The build and render scripts are in <code>scripts/</code>.</p></div><div class="checker"><img id="frame-preview" alt="Selected reusable alpha pose drawing"></div></div></details>
+    <details><summary>Watch or download the encoded output</summary><p>Both videos are exported from these same drawings and timeline. The main video has decorative effects off.</p><video controls loop playsinline preload="metadata" poster="output/frame-0.00.png"><source src="output/motion-study.mp4" type="video/mp4"></video><p><a href="output/motion-study.mp4" download>Download MP4 · effects off</a> · <a href="output/motion-study-effects.mp4" download>Download MP4 · accents on</a></p></details>
+  </main>
+  <footer>Animation trial only. No combat rules, game controls, tournament systems, or renderer migration are included.</footer>
+</body>
+</html>

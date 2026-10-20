@@ -1,0 +1,271 @@
+{
+  "pivot_convention": "global source-image coordinates of right/front support foot; manually registered by the agent; no IK",
+  "sheets": [
+    {
+      "file": "assets/source/komodor-guard.png",
+      "actor": "komodor",
+      "frames": [
+        {
+          "id": "k_guard_0",
+          "pivot": [
+            585,
+            440
+          ],
+          "pose": "Idle inhale / initial ready"
+        },
+        {
+          "id": "k_guard_1",
+          "pivot": [
+            1353,
+            440
+          ],
+          "pose": "Elbows lift into guard"
+        },
+        {
+          "id": "k_guard_2",
+          "pivot": [
+            620,
+            946
+          ],
+          "pose": "Full guard / chin tucked"
+        },
+        {
+          "id": "k_guard_3",
+          "pivot": [
+            1388,
+            946
+          ],
+          "pose": "Guard compression / determined eye"
+        }
+      ]
+    },
+    {
+      "file": "assets/source/grumbongo-attack.png",
+      "actor": "grumbongo",
+      "frames": [
+        {
+          "id": "g_attack_0",
+          "pivot": [
+            679,
+            497
+          ],
+          "pose": "Ready / raised brow and grin"
+        },
+        {
+          "id": "g_attack_1",
+          "pivot": [
+            1362,
+            497
+          ],
+          "pose": "Loaded shoulder / punch windup"
+        },
+        {
+          "id": "g_attack_2",
+          "pivot": [
+            730,
+            1000
+          ],
+          "pose": "Basic punch / foreshortened fist"
+        },
+        {
+          "id": "g_attack_3",
+          "pivot": [
+            1392,
+            1000
+          ],
+          "pose": "Punch withdrawal and reset"
+        }
+      ]
+    },
+    {
+      "file": "assets/source/komodor-idle.png",
+      "actor": "komodor",
+      "frames": [
+        {
+          "id": "k_idle_0",
+          "pivot": [
+            590,
+            455
+          ],
+          "pose": "Ready breath start"
+        },
+        {
+          "id": "k_idle_1",
+          "pivot": [
+            1360,
+            455
+          ],
+          "pose": "Inhale / lifted ribs and shoulders"
+        },
+        {
+          "id": "k_idle_2",
+          "pivot": [
+            595,
+            965
+          ],
+          "pose": "Exhale / settled hips"
+        },
+        {
+          "id": "k_idle_3",
+          "pivot": [
+            1370,
+            965
+          ],
+          "pose": "Alert eye and chin"
+        }
+      ]
+    },
+    {
+      "file": "assets/source/komodor-counter.png",
+      "actor": "komodor",
+      "frames": [
+        {
+          "id": "k_counter_0",
+          "pivot": [
+            600,
+            440
+          ],
+          "pose": "Guard release begins"
+        },
+        {
+          "id": "k_counter_1",
+          "pivot": [
+            1360,
+            464
+          ],
+          "pose": "Settle behind planted feet"
+        },
+        {
+          "id": "k_counter_2",
+          "pivot": [
+            648,
+            973
+          ],
+          "pose": "Coiled torso and loaded fist"
+        },
+        {
+          "id": "k_counter_3",
+          "pivot": [
+            1410,
+            972
+          ],
+          "pose": "Early forward extension / opposing tail sweep"
+        }
+      ]
+    },
+    {
+      "file": "assets/source/komodor-strike.png",
+      "actor": "komodor",
+      "frames": [
+        {
+          "id": "k_strike_0",
+          "pivot": [
+            600,
+            475
+          ],
+          "pose": "Loaded fist / early drive, open jaw"
+        },
+        {
+          "id": "k_strike_1",
+          "pivot": [
+            1405,
+            477
+          ],
+          "pose": "Extended foreshortened strike"
+        },
+        {
+          "id": "k_strike_2",
+          "pivot": [
+            648,
+            983
+          ],
+          "pose": "Rotated follow-through"
+        },
+        {
+          "id": "k_strike_3",
+          "pivot": [
+            1420,
+            987
+          ],
+          "pose": "Arm retraction and momentum catch"
+        }
+      ]
+    },
+    {
+      "file": "assets/source/komodor-recovery.png",
+      "actor": "komodor",
+      "frames": [
+        {
+          "id": "k_recovery_0",
+          "pivot": [
+            625,
+            420
+          ],
+          "pose": "Retract fist / forward mass"
+        },
+        {
+          "id": "k_recovery_1",
+          "pivot": [
+            1365,
+            429
+          ],
+          "pose": "Shoulders settling"
+        },
+        {
+          "id": "k_recovery_2",
+          "pivot": [
+            614,
+            935
+          ],
+          "pose": "Controlled exhale / hands lower"
+        },
+        {
+          "id": "k_recovery_3",
+          "pivot": [
+            1360,
+            938
+          ],
+          "pose": "Stable ready and tail curl"
+        }
+      ]
+    },
+    {
+      "file": "assets/source/grumbongo-reaction.png",
+      "actor": "grumbongo",
+      "frames": [
+        {
+          "id": "g_reaction_0",
+          "pivot": [
+            640,
+            495
+          ],
+          "pose": "Chest compression / surprised mouth"
+        },
+        {
+          "id": "g_reaction_1",
+          "pivot": [
+            1395,
+            496
+          ],
+          "pose": "Heavy recoil / open hands"
+        },
+        {
+          "id": "g_reaction_2",
+          "pivot": [
+            675,
+            990
+          ],
+          "pose": "Catch balance and grimace"
+        },
+        {
+          "id": "g_reaction_3",
+          "pivot": [
+            1375,
+            988
+          ],
+          "pose": "Recovered alert frown"
+        }
+      ]
+    }
+  ]
+}

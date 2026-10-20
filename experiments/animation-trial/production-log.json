@@ -1,0 +1,48 @@
+{
+  "benchmark": "docs/visual-direction/03-graphic-animation.png",
+  "benchmark_sha256": "0fc014a9fa7ec3f606c6ff9068bb6393ff728dba6d89a40c492405f0836a0934",
+  "scope": "8\u201312 second independent animation feasibility trial; no playable battle or production approval",
+  "workflow": "reference-guided drawn pose frames, registered into reusable alpha sprites; deterministic timeline compositing",
+  "tools": {
+    "python": "3.12.14",
+    "pillow": "12.3.0",
+    "ffmpeg": "7.1.5",
+    "image_generation": "available built-in image_gen; model and seed not exposed"
+  },
+  "stages": [],
+  "observations": [
+    {
+      "stage": "isolated masters",
+      "result": "Real RGBA, interior alpha capped at 254; light-matte inspection preserves sample treatment. No external removal model needed."
+    },
+    {
+      "stage": "pose sheet layout",
+      "result": "Fixed 2\u00d72 crops cut tails/toes: Komodor touches nominal row boundary; Grumbongo punch extends beyond nominal column. Four connected foreground components can be recovered in each initial sheet."
+    },
+    {
+      "stage": "initial component extraction",
+      "result": "8 distinct RGBA drawings exported; 4,202,949 PNG bytes; 10,054,424 decoded RGBA bytes; measured 6.388 seconds for build."
+    }
+  ],
+  "trial_start": "2026-10-20T03:10:15.991Z",
+  "review_package_checked_at_unix": 1792468466.2888994,
+  "scope_outcome": "Partial feasibility; production-ready autonomous animation not demonstrated; stop for user review",
+  "reproducibility": {
+    "source_png_to_sprites": "28/28 identical hashes on rebuild",
+    "same_environment_video": "clean MP4 byte-identical on rerender",
+    "reference_image": "unchanged SHA-256 0fc014a9fa7ec3f606c6ff9068bb6393ff728dba6d89a40c492405f0836a0934"
+  },
+  "measured_processing_seconds": {
+    "initial_eight_sprite_build": 6.388,
+    "full_28_sprite_build": 23.045,
+    "repeat_28_sprite_build": 23.884,
+    "clean_video_export": 16.186,
+    "accent_video_export": 16.218,
+    "repeat_clean_video_export": 16.403
+  },
+  "active_labor_time": "Not independently measured; curation/script authoring/review overlapped image generation. No artist labor estimate claimed.",
+  "browser_validation": "HTTP playback, seven seeks, options and 390px layout passed; file:// blocked by managed browser policy; physical devices unverified",
+  "record_file_created_at_unix": 1792465864.4323988,
+  "started_unix": 1792465815.991,
+  "wall_minutes_through_review_check": 44.17163165807724
+}

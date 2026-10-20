@@ -1,14 +1,18 @@
 # Proposed next POC — approval required
 
-**Not started.** The initial real-time 3D POC remains a historical technical experiment. A beautiful generated still does not approve the next renderer or demonstrate an animation pipeline.
+**Gate status:** sample 03 was approved as the target for a bounded tool-assisted animation feasibility trial. Gate 2's [trial and assessment](../animation-trial/REPORT.md) are delivered for review with partial results. **Gate 3, another complete playable battle, is not approved or started.** The initial real-time 3D POC remains a historical technical experiment.
 
 ## Gate 1: choose the visible direction and art workflow
+
+The user authorized sample 03 and an autonomous feasibility test; no paid purchase or artist hire was authorized. The original review criteria below remain the benchmark, not proof that the motion trial passes.
 
 Review [the gallery](README.md), [pipeline comparison](PIPELINE-COMPARISON.md), and sample-specific caveats. Select or revise the look. Confirm how layered source art, pose redraws, and animation cleanup will be supplied: an illustrator/animator, a proven external asset workflow, or a bounded autonomous trial with a genuine possibility of rejection. Approval is needed before implementation; silence does not select a direction.
 
 **Pass criteria:** both character designs are compelling at battle size; Komodor reads from behind and Grumbongo from the front; anatomy, expressions, palette, material treatment, and arena belong together; neither relies on geometric assemblies, generic clip art, or effects hiding the body. Approve the character designs separately from the environment. The direction must remain convincing with the decorative effects and UI removed.
 
 ## Gate 2: prove animated assets before a complete battle
+
+The bounded trial is now [available with reusable sources and an honest assessment](../animation-trial/REPORT.md). It has not demonstrated a production-ready pipeline; wait for user review before dependent work.
 
 Produce one real 8–12 second motion study of Komodor with a restrained Grumbongo reaction. Include idle → guard absorption → counter preparation → charged strike → recovery, plus a face change and an explicit ground-contact guide. This is a targeted asset/animation trial, not a new complete game.
 

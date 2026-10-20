@@ -1,0 +1,129 @@
+{
+  "trial_start": "2026-10-20T03:10:15.991Z",
+  "generation_capture_end": "2026-10-20T03:42:39.024Z",
+  "wall_minutes_to_capture": 32.38388333333333,
+  "tool": "image_gen.imagegen",
+  "model": "not exposed",
+  "seed": "not exposed",
+  "purchase_or_external_service": "No purchase or external art service initiated. Built-in image-generation capability used with project references.",
+  "generations": [
+    {
+      "key": "komodor-master",
+      "file": "assets/source/komodor-master-attempt.png",
+      "references": [
+        "docs/visual-direction/03-graphic-animation.png"
+      ],
+      "started": "2026-10-20T03:10:15.991Z",
+      "completed": "2026-10-20T03:12:10.302Z",
+      "request_wall_seconds": 114.311,
+      "transparent": true
+    },
+    {
+      "key": "grumbongo-master",
+      "file": "assets/source/grumbongo-master-attempt.png",
+      "references": [
+        "docs/visual-direction/03-graphic-animation.png"
+      ],
+      "started": "2026-10-20T03:10:15.991Z",
+      "completed": "2026-10-20T03:11:20.543Z",
+      "request_wall_seconds": 64.552,
+      "transparent": true
+    },
+    {
+      "key": "komodor-guard-sheet",
+      "file": "assets/source/komodor-guard.png",
+      "references": [
+        "experiments/animation-trial/assets/source/komodor-master-attempt.png",
+        "docs/visual-direction/03-graphic-animation.png"
+      ],
+      "started": "2026-10-20T03:14:56.975Z",
+      "completed": "2026-10-20T03:17:15.036Z",
+      "request_wall_seconds": 138.061,
+      "transparent": true
+    },
+    {
+      "key": "grumbongo-attack-sheet",
+      "file": "assets/source/grumbongo-attack.png",
+      "references": [
+        "experiments/animation-trial/assets/source/grumbongo-master-attempt.png",
+        "docs/visual-direction/03-graphic-animation.png"
+      ],
+      "started": "2026-10-20T03:14:56.975Z",
+      "completed": "2026-10-20T03:16:03.870Z",
+      "request_wall_seconds": 66.895,
+      "transparent": true
+    },
+    {
+      "key": "arena-clean",
+      "file": "assets/arena.png",
+      "references": [
+        "docs/visual-direction/03-graphic-animation.png"
+      ],
+      "started": "2026-10-20T03:14:56.975Z",
+      "completed": "2026-10-20T03:17:51.742Z",
+      "request_wall_seconds": 174.767,
+      "transparent": false
+    },
+    {
+      "key": "komodor-idle-sheet",
+      "file": "assets/source/komodor-idle.png",
+      "references": [
+        "experiments/animation-trial/assets/source/komodor-master-attempt.png",
+        "docs/visual-direction/03-graphic-animation.png"
+      ],
+      "started": "2026-10-20T03:22:33.360Z",
+      "completed": "2026-10-20T03:24:55.776Z",
+      "request_wall_seconds": 142.416,
+      "transparent": true
+    },
+    {
+      "key": "komodor-counter-sheet",
+      "file": "assets/source/komodor-counter.png",
+      "references": [
+        "experiments/animation-trial/assets/source/komodor-master-attempt.png",
+        "experiments/animation-trial/assets/source/komodor-guard.png",
+        "docs/visual-direction/03-graphic-animation.png"
+      ],
+      "started": "2026-10-20T03:22:33.360Z",
+      "completed": "2026-10-20T03:23:30.894Z",
+      "request_wall_seconds": 57.534,
+      "transparent": true
+    },
+    {
+      "key": "komodor-strike-sheet",
+      "file": "assets/source/komodor-strike.png",
+      "references": [
+        "experiments/animation-trial/assets/source/komodor-master-attempt.png",
+        "docs/visual-direction/03-graphic-animation.png"
+      ],
+      "started": "2026-10-20T03:22:33.360Z",
+      "completed": "2026-10-20T03:26:10.028Z",
+      "request_wall_seconds": 216.668,
+      "transparent": true
+    },
+    {
+      "key": "komodor-recovery-sheet",
+      "file": "assets/source/komodor-recovery.png",
+      "references": [
+        "experiments/animation-trial/assets/source/komodor-master-attempt.png",
+        "docs/visual-direction/03-graphic-animation.png"
+      ],
+      "started": "2026-10-20T03:22:33.360Z",
+      "completed": "2026-10-20T03:27:10.624Z",
+      "request_wall_seconds": 277.264,
+      "transparent": true
+    },
+    {
+      "key": "grumbongo-reaction-sheet",
+      "file": "assets/source/grumbongo-reaction.png",
+      "references": [
+        "experiments/animation-trial/assets/source/grumbongo-master-attempt.png",
+        "docs/visual-direction/03-graphic-animation.png"
+      ],
+      "started": "2026-10-20T03:22:33.360Z",
+      "completed": "2026-10-20T03:28:40.565Z",
+      "request_wall_seconds": 367.205,
+      "transparent": true
+    }
+  ]
+}

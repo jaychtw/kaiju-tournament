@@ -1,0 +1,6 @@
+{
+  "raw_to_sprite_repeat": "28/28 SHA-256 hashes identical",
+  "same_environment_mp4_repeat": "SHA-256 identical",
+  "mp4_sha256": "ed0ca8a9b2865a9d1cedfa5136f418ca554ff77766e16636d19d9e36ce9c7a3b",
+  "scope": "saved source PNGs + annotated pivots + timeline with the same tool versions; prompt regeneration and other encoder builds not asserted"
+}

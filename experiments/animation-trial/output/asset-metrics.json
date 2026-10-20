@@ -1,0 +1,19 @@
+{
+  "source_png_count": 9,
+  "source_png_bytes": 21463455,
+  "runtime_frame_count": 28,
+  "frame_png_bytes": 14815337,
+  "frame_decoded_rgba_bytes": 35747244,
+  "all_loaded_visual_rgba_bytes": 48330156,
+  "canvas_rgba_bytes": 3840000,
+  "runtime_visual_download_bytes": 20609298,
+  "runtime_shader_or_game_engine": "none; Canvas 2D",
+  "video_clean_bytes": 3569737,
+  "video_effects_bytes": 3573576,
+  "preview_dimensions": [
+    720,
+    480
+  ],
+  "preview_frames": 110,
+  "preview_bytes": 1354156
+}

@@ -1,6 +1,17 @@
 # World Kaiju Tournament
 
-**Current status: visual-direction review. The initial POC did not achieve artistic acceptance.** Its engineering remains useful; its procedural 3D presentation is not the approved direction, and no new playable battle or full game is being implemented at this checkpoint.
+**Current status: animation feasibility trial delivered for review.** Sample 03 was approved as the visual target for this bounded experiment. The result demonstrates reusable illustrated frame assets and real playback, but **does not establish a production-ready autonomous animation pipeline**. The initial procedural 3D POC remains unapproved artistically.
+
+- [Animation assessment and production report](docs/animation-trial/REPORT.md)
+- [Download the actual ten-second MP4 — effects off](experiments/animation-trial/output/motion-study.mp4?raw=true)
+- [Reusable source drawings, timeline, and export scripts](experiments/animation-trial/)
+- [Download the lightweight reviewer ZIP](experiments/animation-trial/output/animation-review.zip?raw=true)
+
+![Actual ten-second animation study — smaller effects-off preview of the reusable asset pipeline](experiments/animation-trial/output/motion-study.webp)
+
+*The preview and MP4 are exported from the saved PNG drawings and timeline, not a separately generated video. The report distinguishes reusable playback from unresolved anatomy consistency and motion quality. No new complete battle or full game has been built.*
+
+## Approved visual target and earlier comparison
 
 - [New visual samples and review gallery](docs/visual-direction/README.md)
 - [Four production pipelines and recommendation](docs/visual-direction/PIPELINE-COMPARISON.md)
@@ -9,7 +20,7 @@
 
 ![Graphic illustrated visual-direction target: rear-facing Komodor and front-facing Grumbongo](docs/visual-direction/03-graphic-animation.png)
 
-*AI-generated static art target for review. This is not a screenshot from a new game or proof of a layered/animated asset pipeline. No direction is approved yet.*
+*Sample 03: approved as the trial's static visual benchmark. Its image remains unchanged. This approval does not extend to the trial result, a production pipeline, another playable battle, or the full game.*
 
 ## Initial POC — historical engineering reference
 
@@ -92,4 +103,4 @@ High caps DPR at 1.7 and enables dynamic character shadows. Eco caps DPR at 1.15
 
 ## Review boundary
 
-Work is paused at the visual-direction review described in [GDD v1.1, Section 12](docs/GDD-v1.1.md#12-visual-development-and-proof-of-concept-milestones). Do not refine the current graphics by default, deploy them to GitHub Pages, implement another full playable battle, or expand into the full roster/tournament before the required reviews and approvals. The next proposed step is a bounded animated-asset trial after direction approval.
+Work is paused for review of the [animation feasibility trial](docs/animation-trial/REPORT.md), under [GDD v1.1, Section 12](docs/GDD-v1.1.md#12-visual-development-and-proof-of-concept-milestones). Do not implement another full playable battle, expand the roster/tournament, hire an artist, make purchases, or migrate the application renderer without the applicable authorization. The benchmark remains sample 03; the current animated result is not a production pass.

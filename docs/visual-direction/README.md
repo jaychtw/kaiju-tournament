@@ -1,6 +1,6 @@
 # Visual-direction review: three looks, four production pipelines
 
-**For review only. No artistic direction is approved. No new playable battle has been built.** The original POC remains in version control as a technical experiment whose artwork failed acceptance. These samples explore the image the player could see, without treating that renderer as a constraint.
+**Approval update:** the user approved sample 03 as the visual target for the bounded [animation feasibility trial](../animation-trial/REPORT.md). That trial is now delivered with partial results, not a production pass. No complete playable battle or full production is approved. The original POC remains in version control as a technical experiment whose artwork failed acceptance.
 
 The [updated GDD v1.1](../GDD-v1.1.md) permits illustrated 2D, layered 2.5D, pre-rendered 3D, real-time 3D, and hybrids. Gameplay, stats, simultaneous combat, the three-second mash, Guard & Counter, and bilingual requirements are unchanged.
 
@@ -59,4 +59,4 @@ See [source prompts and provenance](ART-PROVENANCE.md) for how the images were c
 
 ## Review checkpoint
 
-Review the character artwork first, then how it sits in the arena. The immediate decision is whether one of these looks—or a specified revision—provides the right artistic target, and whether the proposed asset workflow is realistic. After approval, the next proposed work is a short **actual animated-asset trial**, not an immediate complete battle rebuild. Full production remains deferred.
+Sample 03's target was approved; the immediate checkpoint is now review of the [actual animated-asset trial and its limitations](../animation-trial/REPORT.md). The static target remains unchanged. Its approval does not imply acceptance of the animation result or a reliable full-roster asset workflow. Full production remains deferred.
