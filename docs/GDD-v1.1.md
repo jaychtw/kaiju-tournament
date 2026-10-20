@@ -7,9 +7,9 @@
 **Primary audience:** Family-friendly, accessible to children and enjoyable for older players  
 **Development approach:** Design-first collaboration, followed by AI-assisted implementation
 
-**Revision status:** Sample 03 has been approved as the visual target for a bounded tool-assisted animation feasibility trial only. That trial is [delivered for review](animation-trial/REPORT.md), with partial results; no production pipeline, another complete playable battle, or full production is approved. The initial POC passed engineering checks but failed artistic acceptance.
+**Revision status:** Production resumed by the [v1.0 production brief](release/PRODUCTION-BRIEF.md). The illustrated pose-based trial at `b922df4` is accepted. The previous hold and Section 12 review gates are historical and superseded; continuous rigging is not a production prerequisite.
 
-**Revision scope:** Rendering technology is optional. Gameplay, all six kaiju statistics, simultaneous resolution, the three-second mash window, Guard & Counter, tournament rules, and bilingual requirements remain unchanged. The original [GDD v1.0](GDD-v1.0.md) is retained as historical source.
+**Production exception:** Hippocalypse ATK changes from 85 to **110**, its total from 450 to **475**; all other stats and combat mechanics remain unchanged. See the [deterministic balance report](release/BALANCE.md). The original [GDD v1.0](GDD-v1.0.md) remains historical source. The implementation checklist and release review live in [docs/release](release/CHECKLIST.md).
 
 ---
 
@@ -153,7 +153,7 @@ The following names, clans, and statistics are **initial design values**, subjec
 | Komodor | Humanoid Komodo dragon | 200 | 150 | 100 | 450 |
 | Grumbongo | Silverback gorilla | 185 | 175 | 90 | 450 |
 | Kraken | Mythical cephalopod | 195 | 155 | 100 | 450 |
-| Hippocalypse | Humanoid hippopotamus | 240 | 85 | 125 | 450 |
+| Hippocalypse | Humanoid hippopotamus | 240 | 110 | 125 | 475 |
 | Condorion | Humanoid condor | 165 | 190 | 95 | 450 |
 | Sssir Pent | Single-headed serpent | 210 | 140 | 100 | 450 |
 
@@ -551,6 +551,8 @@ A first-time child player should be able to select a kaiju, challenge an opponen
 
 ## 12. Visual Development and Proof-of-Concept Milestones
 
+**Historical record:** The following checkpoints describe the previous approval process. Their stop conditions are superseded by the [production brief](release/PRODUCTION-BRIEF.md), which approves the trial and the full six-kaiju tournament through v1.0. Limited pose-based animation is accepted.
+
 ### 12.1 Initial experiment — completed, not artistically accepted
 
 The first Komodor-versus-Grumbongo POC at commit [`bd13bd8`](https://github.com/jaychtw/kaiju-tournament/commit/bd13bd887888921f1d6fcd646ae82b204b3df628) demonstrated technical feasibility through playable combat, keyboard/touch controls, bilingual UI, deterministic simultaneous resolution, Guard & Counter, and meaningful tests. It did **not** achieve artistic acceptance. Its procedural character assemblies and scene presentation were closer to previsualization than the intended finished commercial-game experience.
@@ -603,7 +605,7 @@ Return to a user review checkpoint after this one-match POC. Do not add the rema
 
 This GDD specifies the desired experience, behavior, and acceptance criteria.
 
-The implementation agent may propose the rendering technology, architecture, asset pipeline, and libraries, provided it can justify the choices against the visible quality, animation, production feasibility, and performance requirements. No rendering approach is preferred because of existing code. Use the visual-direction and animated-asset approval gates in Section 12 before another complete battle implementation. Keep combat rules and localization independent of the chosen renderer.
+The implementation agent may propose the rendering technology, architecture, asset pipeline, and libraries, provided it can justify the choices against the visible quality, animation, production feasibility, and performance requirements. No rendering approach is preferred because of existing code. Follow the production brief above; the historical Section 12 gates no longer block implementation. Keep combat rules and localization independent of the chosen renderer.
 
 Priorities:
 

@@ -1,13 +1,14 @@
 {
-  "name": "world-kaiju-tournament-poc",
-  "version": "0.1.0",
-  "description": "",
+  "name": "world-kaiju-tournament",
+  "version": "1.0.0-rc.1",
+  "description": "A bilingual illustrated kaiju tournament for desktop and mobile browsers",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0",
-    "test": "node --test tests/combat.test.js",
-    "test:browser": "playwright test"
+    "test": "node --test tests/*.test.js",
+    "test:browser": "playwright test",
+    "test:balance": "node scripts/simulate-balance.mjs"
   },
   "repository": {
     "type": "git",

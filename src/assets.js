@@ -17,6 +17,7 @@ export function loadImage(file) {
   }));
   return cache.get(file);
 }
+export function releaseImages(files) { for (const file of files) cache.delete(file); }
 export async function loadBattleArt(player = 'komodor', enemy = 'grumbongo') {
   const art = await getArt();
   const sources = [art.characters[player].rear, art.characters[enemy].front];

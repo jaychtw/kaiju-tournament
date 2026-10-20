@@ -1,4 +1,4 @@
-import { loadBattleArt } from './assets.js';
+import { loadBattleArt, releaseImages } from './assets.js';
 
 // Pose selection belongs to presentation; HP and outcomes belong to combat.js.
 export async function createBattleScene(canvas, hooks, player = 'komodor', enemy = 'grumbongo') {
@@ -23,7 +23,7 @@ export async function createBattleScene(canvas, hooks, player = 'komodor', enemy
     const root = side === 0 ? [620 + lunge, 705 - lunge * .18] : [1100 - lunge, 525 + lunge * .12];
     if (ko) root[1] += Math.min(1, at / .55) * 65;
     ctx.save();
-    ctx.globalAlpha = ko ? .62 : 1;
+    ctx.globalAlpha = ko ? .88 : 1;
     ctx.fillStyle = '#26384635'; ctx.beginPath();
     ctx.ellipse(root[0] - (side === 0 ? 110 : 190), side === 0 ? 700 : 520, side === 0 ? 155 : 205, 20, 0, 0, Math.PI * 2); ctx.fill();
     ctx.drawImage(images.get(frame.file), Math.round(root[0] - frame.pivot[0] * scale), Math.round(root[1] - frame.pivot[1] * scale), Math.round(frame.size[0] * scale), Math.round(frame.size[1] * scale));
@@ -73,7 +73,7 @@ export async function createBattleScene(canvas, hooks, player = 'komodor', enemy
       hooks.onFrame?.(now);
       if (result && !ended) {
         if (!impacted && now - start >= 850) { impacted = true; hooks.onImpact?.(result); }
-        if (now - start >= 2200) { ended = true; action = null; hooks.onComplete?.(result); }
+        if (now - start >= 2200) { ended = true; action = null; hooks.onComplete?.(result); if (!result.state.outcome) result = null; }
       }
       draw(now); frames++; drawTimes.push(performance.now() - began); if (drawTimes.length > 600) drawTimes.shift();
     }
@@ -92,6 +92,6 @@ export async function createBattleScene(canvas, hooks, player = 'komodor', enemy
     setQuality(next) { quality = next; },
     project(who) { return who === 'player' ? { x: .34, y: .48 } : { x: .75, y: .3 }; },
     getStats() { const sorted = [...intervals].sort((a,b)=>a-b); return { renderer: 'Canvas 2D · illustrated poses', frames, quality, medianFrameMs: sorted[Math.floor(sorted.length / 2)] || 0, p95FrameMs: sorted[Math.floor(sorted.length * .95)] || 0, meanDrawMs: drawTimes.reduce((a,b)=>a+b,0) / (drawTimes.length || 1), loadedImages: images.size }; },
-    destroy() { alive = false; document.removeEventListener('visibilitychange', visibility); },
+    destroy() { alive = false; document.removeEventListener('visibilitychange', visibility); releaseImages(images.keys()); images.clear(); },
   };
 }

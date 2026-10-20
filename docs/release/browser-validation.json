@@ -1,0 +1,133 @@
+{
+  "stats": {
+    "startTime": "2026-10-20T05:50:37.064Z",
+    "duration": 154049.33200000002,
+    "expected": 12,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "results": [
+    {
+      "title": "illustrated battle rejects held keys; localization changes without resetting combat and persists",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 10974
+        }
+      ]
+    },
+    {
+      "title": "Guard → charged Attack → Attack resolves double KO; draw records loss and next match resets HP",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 23050
+        }
+      ]
+    },
+    {
+      "title": "charged victory still receives the simultaneous incoming damage",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 14658
+        }
+      ]
+    },
+    {
+      "title": "phone touch counts each tap once, bilingual instructions work, charged controls fit portrait and landscape",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 14785
+        }
+      ]
+    },
+    {
+      "title": "three zero-press attacks lose; loss keeps the tournament open",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 20359
+        }
+      ]
+    },
+    {
+      "title": "komodor: complete all five matches, both views work, Champion and restart",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 10963
+        }
+      ]
+    },
+    {
+      "title": "grumbongo: complete all five matches, both views work, Champion and restart",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 10505
+        }
+      ]
+    },
+    {
+      "title": "kraken: complete all five matches, both views work, Champion and restart",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 10728
+        }
+      ]
+    },
+    {
+      "title": "hippocalypse: complete all five matches, both views work, Champion and restart",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 11122
+        }
+      ]
+    },
+    {
+      "title": "condorion: complete all five matches, both views work, Champion and restart",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 10552
+        }
+      ]
+    },
+    {
+      "title": "sssirPent: complete all five matches, both views work, Champion and restart",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 10958
+        }
+      ]
+    },
+    {
+      "title": "grounds keyboard and touch movement; decline does not consume rival; resume keeps completed history",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 4516
+        }
+      ]
+    }
+  ],
+  "note": "Headless Linux Chromium; emulated phone viewports, not physical devices. Six complete winning tournaments use controlled clock advancement after input."
+}
